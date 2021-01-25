@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="first_question">1. Who is the CEO of Google?</string>
+    <string name="second_question">2. Who is the CEO of Amazon?</string>
+    <string name="third_question">3. Who is the CEO of Apple?</string>
+    <string name="fourth_question">4. Who is the CEO of Tesla?</string>
+
+    <string name="elon_musk">Elon Musk</string>
+    <string name="tim_cook">Tim Cook</string>
+    <string name="sundar_pichai">Sundar Pichai</string>
+    <string name="jeff_bejos">Jeff Bejos</string>
+</resources>
