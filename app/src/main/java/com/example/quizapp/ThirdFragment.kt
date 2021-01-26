@@ -53,7 +53,9 @@ class ThirdFragment(var score:Int) : Fragment(),View.OnClickListener {
 
         if(fragmentView!!.findViewById<RadioButton>(R.id.rbTim).isChecked || fragmentView!!.findViewById<RadioButton>(R.id.rbSundar).isChecked || fragmentView!!.findViewById<RadioButton>(R.id.rbElon).isChecked || fragmentView!!.findViewById<RadioButton>(R.id.rbJeff).isChecked){
             fragmentManager!!.beginTransaction().apply {
+                setCustomAnimations(R.anim.slide_in,R.anim.fade_out,R.anim.fade_in,R.anim.slide_out)
                 replace(R.id.frameLayout,ForthFragment(score))
+                addToBackStack(null)
                 commit()
             }
         }else
